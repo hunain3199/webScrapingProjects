@@ -1,0 +1,929 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.nav {
+    width: 100%;
+    height: 0;
+    position: absolute;
+    padding-top: 2rem;
+}
+
+.topnav {
+    padding: 10px 20px;
+    float: right;
+    display: flex;
+    margin-right: 90px;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+.topnav a{
+    color: white;
+}
+
+.logo {
+    width: 87px;
+    float: left;
+    margin-left: 42px;
+    border-radius: 44px;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.column-1,
+.column-2,
+.column-3,
+.column-4,
+.column-5,
+.column-6,
+.column-7,
+.column-8,
+.column-9,
+.column-10,
+.column-11,
+.column-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.column-1 {
+    max-width: 8.33%;
+}
+
+.column-2 {
+    max-width: 16.66%;
+}
+
+.column-3 {
+    max-width: 25%;
+}
+
+.column-4 {
+    max-width: 33.33%;
+}
+
+.column-5 {
+    max-width: 41.66%;
+}
+
+.column-6 {
+    max-width: 50%;
+    text-align: inherit;
+}
+
+.column-7 {
+    max-width: 58.33%;
+}
+
+.column-8 {
+    max-width: 66.66%;
+}
+
+.column-9 {
+    max-width: 75%;
+}
+
+.column-10 {
+    max-width: 83.33%;
+}
+
+.column-11 {
+    max-width: 91.66%;
+}
+
+.column-12 {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 84%;
+    margin: 0 auto;
+}
+
+.cars-luxery {
+    background-image: url(Img/co2\ cover.jpg);
+    padding-top: 193px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-bottom: 348px;
+}
+
+.luxery-text {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin: 38px 0px 0px 0px;
+    font-size: 1.25rem;
+    font-family: Roboto,sans-serif;
+    color: white;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.4);
+}
+
+.luxery-heading {
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.4);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin: 39px 0px 0px 0px;
+    font-size: 4.5rem;
+    font-family: Roboto,sans-serif;
+    color: white;
+}
+
+
+.image1 {
+    margin-top: 50px;
+    width: 100%;
+    height: 35rem;
+    position: relative;
+}
+
+.layout-car{
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+
+.layout-line {
+    background: black;
+    width: 69px;
+    height: 8px;
+    margin: 123px auto 0 0;
+}
+
+
+.car-text-1{
+    color: #4d4d4d;
+    margin-top: 19px;
+    font-size: 2.25rem;
+}
+
+.car-text-2 {
+    margin-top: 16px;
+    font-size: 1.25rem;
+    letter-spacing: 3px;
+}
+
+.car-text-3 {
+    font-size: 14px;
+    color: #585858;
+    line-height: 20px;
+    margin-bottom: 27px;
+    margin-top: 16px;
+}
+
+
+.button{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px 32px;
+    letter-spacing: 3px;
+}
+
+.u-layout2-text1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.location-icon{
+    font-size: 64px;
+}
+
+.u-layout2-heading1 {
+    margin-top: 20px;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+
+.u-layout2-text2{
+    margin-top: 23px;
+}
+
+.u-container-layout{
+    padding: 0px;
+}
+
+.u-container-layout2{
+    text-align: center;
+}
+
+.u-image{
+    width: 382px;
+    height: 330px;
+    position: relative;
+}
+
+
+
+.u-layout3{
+    background-color: black;
+}
+
+.hero-content3{
+    padding-top: 68px;
+}
+
+.u-text11 {
+    color: white;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    margin-top: 46px;
+}
+
+.u-layout2{
+    padding-bottom: 57px;
+    padding-top: 42px;
+}
+
+.u-text12{
+    color: #db545a;
+    margin-top: 20px;
+    font-size: 2.25rem;
+}
+
+.u-text13 {
+    font-size: 1.08rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    line-height: 1.6;
+}
+
+.u-container1{
+    padding: 30px;
+}
+
+.u-container2{
+    padding: 30px;
+}
+
+.u-text14 {
+    color: white;
+    font-size: 1.25rem;
+    margin-top: 75px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.u-text15 {
+    font-size: 1.08rem;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 31px;
+    line-height: 1.6;
+}
+
+.button2{
+    background-color: #db545a;
+    color: white;
+    padding: 14px 28px;
+    letter-spacing: 0.1rem;
+}
+
+.black-car-layout {
+    width: 100%;
+    padding: 20px;
+}
+
+.u-text-16 {
+    font-weight: 700;
+    color: white;
+    font-size: 26px;
+    margin-top: 77px;
+    margin-bottom: 31px;
+    margin-top: 6rem;
+}
+
+.u-container3 {
+    /* margin-left: 116px; */
+    text-align: right;
+}
+
+.u-black-car{
+    margin-top: 34px;
+}
+
+.p-0{
+    padding: 0px;
+}
+
+.black-column{
+    padding: 20px;
+}
+
+.u-image2{
+    width: 100%;
+    height: 32rem;
+    margin-left: 56px;
+}
+
+.black-one{
+    background-color: #db545a;
+    color: white;
+    padding: 14px 28px;
+    letter-spacing: 0.1rem;
+}
+
+.image-column{
+    padding: 10px;
+}
+
+.Service-heading {
+    color: #cd5710;
+    font-size: 33px;
+    margin-top: 43px;
+    text-align: center;
+}
+
+.hero-content4{
+    margin-top: 50px;
+}
+
+.technology-image {
+    height: 195px;
+}
+
+.u-text{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+}
+
+.red-oval {
+    width: 100%;
+    padding: 30px;
+}
+
+.u-layout5{
+    padding-bottom: 57px;
+}
+
+.luxery-content7{
+    margin-top: 70px;
+}
+
+.red-oval-heading {
+    margin-top: 67px;
+    font-size: 27px;
+    color: red;
+}
+
+.red-oval-paragraph {
+    color: #808080;
+    margin-top: 30px;
+    line-height: 23px;
+}
+
+.red-oval2 b{
+    color: #808080;
+}
+
+
+
+.rounded-3xl {
+    border-radius: 1.5rem;
+}
+
+.civic-oval{
+    background-image: url(Img/co2\ layout.webp);
+    height: 648px;
+    background-position: 13.93% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.civic-oval1 {
+    background-image: url(Img/co2\ cover.jpg);
+    min-height: 324px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.civic-oval2{
+    background-image: url(Img/co2\ layout.webp);
+    min-height: 324px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.civic-heading{
+    position: relative;
+    margin: 71px 20px 23px;
+    font-size: 29px;
+    line-height: 1.1;
+    text-transform: none;
+    font-weight: 700;
+}
+
+.button-2{
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 2px;
+    background-image: none;
+    padding: 12px 22px;
+}
+
+.civic-22{
+    color: white;
+    background-color: black;
+}
+
+.civic-heading1{
+    font-size: 33px;
+    margin-top: 94px;
+    margin-left: 20px;
+    margin-right: 35px;
+}
+
+.civic-paragraph{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 19px;
+    line-height: 1.6;
+}
+
+.contact-form-heading{
+    color: #4d4d4d;
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    margin-bottom: 32px;
+}
+
+.contact-section{
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+
+.contact-form input{
+    width: 100%;
+    height: 56px;
+    border: none;
+    padding: 0 29px;
+    background: #eff4f7;
+    border-radius: 4px;
+    margin-bottom: 21px;
+}
+
+.contact-form textarea{
+    width: 100%;
+    border: none;
+    padding: 22px 29px;
+    background: #eff4f7;
+    border-radius: 4px;
+}
+
+.contract-heading {
+    font-size: 1.55rem;
+    letter-spacing: 2px;
+}
+
+.contact-paragraph{
+    font-size: 23px;
+    margin: 40px 0 0;
+    color: #808080;
+}
+
+.button-3{
+    width: 24%;
+    cursor: pointer;
+    background-color: #db545a;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    background-image: none;
+    padding: 12px 32px;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    padding-top: 246px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.modal-header{
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.close{
+    border: 0;
+    background: white;
+}
+
+.close i{
+    cursor: pointer;
+}
+
+.contact-form{
+    margin-bottom: 33px;
+}
+
+.social-media a{
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    background: black;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 13px;
+    font-size: 12px;
+}
+
+.contract-adress2-h5 {
+    font-size: 20px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+}
+
+.contract-adress2-p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.logo-footer{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 1px;
+}
+
+.footer-paragraph {
+    width: 417px;
+    margin-top: 49px;
+    margin-bottom: 49px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.footer-layout-paragraph{
+    text-align: center;
+}
+
+.footer-layout-paragraph span{
+    text-decoration: underline;
+    color: #478ac9;
+}
+
+.footer-layout{
+    padding: 36px;
+    color: #ffffff;
+    background-color: #333333;
+}
+
+
+@media screen and (max-width: 638px){
+
+    .row {
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .column-1,
+    .column-2,
+    .column-3,
+    .column-4,
+    .column-5,
+    .column-6,
+    .column-7,
+    .column-8,
+    .column-9,
+    .column-10,
+    .column-11,
+    .column-12 {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    
+    }
+    
+    .column-1 {
+        max-width: 100%;
+    }
+    
+    .column-2 {
+        max-width: 100%;
+    }
+    
+    .column-3 {
+        max-width: 100%;
+    }
+    
+    .column-4 {
+        max-width: 100%;
+    }
+    
+    .column-5 {
+        max-width: 100%;
+    }
+    
+    .column-6 {
+        max-width: 100%;
+        text-align: inherit;
+    }
+    
+    .column-7 {
+        max-width: 100%;
+    }
+    
+    .column-8 {
+        max-width: 100%;
+    }
+    
+    .column-9 {
+        max-width: 100%;
+    }
+    
+    .column-10 {
+        max-width: 100%;
+    }
+    
+    .column-11 {
+        max-width: 100%;
+    }
+    
+    .column-12 {
+        max-width: 100%;
+    }
+
+    .p-0 {
+        padding: 0px;
+    }
+
+    .u-container-layout2 {
+        text-align: left;
+        margin-bottom: 42px;
+    }
+
+    .u-layout2-text2 {
+        margin-top: 23px;
+        margin-bottom: 36px;
+    }
+
+    .u-text-16 {
+        font-weight: 700;
+        color: white;
+        font-size: 2.25rem;
+        margin-bottom: 31px;
+    }
+
+    .u-layout3 {
+        background-color: black;
+        padding-bottom: 40px;
+    }
+
+    .civic-21{
+        padding-bottom: 53px;
+    }
+
+    .civic-heading1 {
+        font-size: 33px;
+        margin-top: 18px;
+        margin-left: 20px;
+        margin-right: 35px;
+    }
+
+    .civic-paragraph {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 19px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+
+    .u-container2 {
+        padding: 30px 30px 59px 30px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .row {
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .column-1,
+    .column-2,
+    .column-3,
+    .column-4,
+    .column-5,
+    .column-6,
+    .column-7,
+    .column-8,
+    .column-9,
+    .column-10,
+    .column-11,
+    .column-12 {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    
+    }
+    
+    .column-1 {
+        max-width: 100%;
+    }
+    
+    .column-2 {
+        max-width: 100%;
+    }
+    
+    .column-3 {
+        max-width: 100%;
+    }
+    
+    .column-4 {
+        max-width: 100%;
+    }
+    
+    .column-5 {
+        max-width: 100%;
+    }
+    
+    .column-6 {
+        max-width: 100%;
+        text-align: inherit;
+    }
+    
+    .column-7 {
+        max-width: 100%;
+    }
+    
+    .column-8 {
+        max-width: 100%;
+    }
+    
+    .column-9 {
+        max-width: 100%;
+    }
+    
+    .column-10 {
+        max-width: 100%;
+    }
+    
+    .column-11 {
+        max-width: 100%;
+    }
+    
+    .column-12 {
+        max-width: 100%;
+    }
+
+    .p-0 {
+        padding: 0px;
+    }
+
+    .u-image {
+        width: 281px;
+        height: 217px;
+        position: relative;
+    }
+
+    .u-back-image34 {
+        width: 299px;
+        background-image: none;
+        position: absolute;
+        height: 216px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .image1{
+        padding-left: 52px;
+        width: 100%;
+        position: relative;
+        margin-top: auto;
+    }
+
+    .u-back-image {
+        width: 372px;
+        background-image: none;
+        position: absolute;
+        height: 12.8rem;
+    }
+
+    .u-container-layout2 {
+        text-align: left;
+        margin-bottom: 42px;
+    }
+
+    .u-layout2-text2 {
+        margin-top: 23px;
+        margin-bottom: 36px;
+    }
+
+    .u-image2 {
+        width: 100%;
+        height: 32rem;
+        margin-left: initial;
+    }
+
+    .u-text11{
+        color: white;
+        font-size: 3.5rem;
+        letter-spacing: 2px;
+        margin-top: 46px;    
+    }
+
+    .u-text12 {
+        color: #db545a;
+        margin-top: 20px;
+        font-size: 4.5rem;
+    }
+
+    .u-text-16 {
+        font-weight: 700;
+        color: white;
+        font-size: 2.25rem;
+        margin-bottom: 31px;
+    }
+
+    .u-layout3 {
+        background-color: black;
+        padding-bottom: 40px;
+    }
+
+    .civic-21{
+        padding-bottom: 53px;
+    }
+
+    .civic-heading1 {
+        font-size: 33px;
+        margin-top: 18px;
+        margin-left: 20px;
+        margin-right: 35px;
+    }
+
+    .civic-paragraph {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 19px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+
+    .u-container2 {
+        padding: 30px 30px 59px 30px;
+    }
+
+    .luxery-heading{
+        font-size: 3rem;
+    }
+}
